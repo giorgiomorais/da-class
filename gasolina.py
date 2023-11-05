@@ -2,6 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+# lendo o arquivo .csv e criando dataframe
 gasolina_df = pd.DataFrame(pd.read_csv("gasolina.csv"))
 gasolina_df
 
