@@ -13,6 +13,7 @@ sns.lineplot(data=gasolina_df, x='dia', y='venda', marker='o', markersize=8, col
 plt.xlabel('Dia')     # Definindo os nomes do eixo x
 plt.ylabel('Preço')   # Definindo o nome do eixo y
 
+
 plt.savefig("gasolina.png")   #Salvando em png
 
 plt.show()            # Mostrando o gráfico
